@@ -1,0 +1,60 @@
+.bar-tooltip {
+  min-width: 200px;
+}
+
+.dark-mode .bar-tooltip {
+  background: rgba(26, 41, 66, 0.98);
+  border: 1px solid #4facfe;
+}
+
+.bar-tooltip .label {
+  font-weight: 600;
+  margin: 0 0 12px 0;
+  color: #2c3e50;
+  font-size: 1rem;
+  border-bottom: 1px solid #ecf0f1;
+  padding-bottom: 8px;
+}
+
+.dark-mode .bar-tooltip .label {
+  color: #e4e4e4;
+  border-bottom-color: #4facfe;
+}
+
+.bar-tooltip p {
+  margin: 6px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tooltip-label {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  font-weight: 500;
+}
+
+.tooltip-value {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.tooltip-value.income {
+  color: #27ae60;
+}
+
+.tooltip-value.expense {
+  color: #e74c3c;
+}
+
+.net-line {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #ecf0f1;
+}
+
+@media (max-width: 768px) {
+  .bar-tooltip {
+    font-size: 0.9rem;
+  }
+}
