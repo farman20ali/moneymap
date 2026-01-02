@@ -200,7 +200,7 @@ function App() {
 
       <footer className="app-footer">
         <p>
-          Personal Finance Dashboard © 2025 | 
+          Personal Finance Dashboard © 2026 | 
           Built with React + Recharts | 
           Data stored locally in your browser
         </p>
